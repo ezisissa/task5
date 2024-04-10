@@ -1,0 +1,48 @@
+.hero {
+  background-color: #59ab6e;
+}
+
+.cards {
+  justify-content: center;
+}
+.s-card {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin: 10px 20px;
+  box-shadow: 0 0 10px rgb(163, 163, 163);
+  clip-path: inset(0px -10px -10px -10px);
+}
+
+.s-card i {
+  margin-bottom: 30px;
+}
+.s-card p {
+  font-weight: 600;
+}
+
+/*Brands*/
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px;
+  flex-wrap: wrap;
+}
+.brands img {
+  width: 200px;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  margin: 20px 20px;
+}
+
+@media (max-width: 1114px) {
+  .brands img {
+    width: 150px;
+  }
+}
+

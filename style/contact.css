@@ -1,0 +1,82 @@
+.products {
+  position: relative;
+  height: 500px;
+}
+
+.products iframe {
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+form {
+  width: 100%;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section input {
+  width: 100%;
+  padding: 5px 8px;
+  border-radius: 2px;
+  border-color: rgb(209, 209, 209);
+  border-width: 1px;
+}
+
+form section div label {
+  display: block;
+  margin: 8px 0px;
+}
+.section1 div {
+  flex: 1;
+}
+
+#message {
+  height: 100px;
+}
+
+.submit {
+    display: flex;
+    justify-content: right;
+}
+.submit button {
+  margin-top: 20px;
+  padding: 5px;
+  width: 100px;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  background-color: #59ab6e;
+}
+
+.submit button:hover {
+  cursor: pointer;
+  background-color: #4a8d5b;
+}
+@media (max-width: 1114px) {
+  .section1 {
+    flex-direction: column;
+  }
+}
